@@ -1,5 +1,5 @@
 # blank-android-gradle
-Author: Daniel Passos (passos@redhat.com)   
+Author: Daniel Passos (dpassos@redhat.com)   
 Level: Beginner   
 Technologies: Java, Android, RHMAP   
 Summary: A template application which Initializes FeedHenry in a Fragment   
