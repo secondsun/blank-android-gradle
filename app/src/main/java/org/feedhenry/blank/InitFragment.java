@@ -48,7 +48,7 @@ public class InitFragment extends Fragment {
 				Log.d(TAG, "init - fail");
 				Log.e(TAG, fhResponse.getErrorMessage(), fhResponse.getError());
 				MainActivity activity = (MainActivity) getActivity();
-				activity.navigateToHome("Ops, an error occurred while processing FH.init");
+				activity.navigateToHome("Oops, an error occurred while processing FH.init");
 			}
 		});
 
