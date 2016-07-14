@@ -22,7 +22,7 @@ licenses:
 
 env:
   global:
-    - ADB_INSTALL_TIMEOUT = 10
+    - ADB_INSTALL_TIMEOUT=10
   matrix:
     - ANDROID_EMULATOR=android-10 ANDROID_ABI=armeabi     ANDROID_PKGS=sys-img-armeabi-v7a-android-10
     - ANDROID_EMULATOR=android-15 ANDROID_ABI=armeabi-v7a ANDROID_PKGS=sys-img-armeabi-v7a-android-15
