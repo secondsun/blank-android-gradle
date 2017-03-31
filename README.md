@@ -11,7 +11,7 @@ Prerequisites: fh-android-sdk : 3.0.+, Android Studio : 1.4.0 or newer, Android 
 
 ## What is it?
 
-This application provides a starting point for developing RHMAP applications.  The FeedHenry SDK is initialized in the class [InitFragment](app/src/main/java/org/feedhenry/blank/InitFragment.java).
+This application provides a starting point for developing RHMAP applications.  The FeedHenry SDK is initialized in the class `app/src/main/java/org/feedhenry/blank/InitFragment.java`.
 
 If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
 
@@ -30,7 +30,7 @@ If you wish to contribute to this template, the following information may be hel
  * Android SDK : 16+
 
 ## Build instructions
- * Edit [fhconfig.properties](app/src/main/assets/fhconfig.properties) to include the relevant information from RHMAP.
+ * Edit `app/src/main/assets/fhconfig.properties` to include the relevant information from RHMAP.
  * Attach running Android Device with API 16+ running
  * ./gradlew installDebug
 
@@ -38,5 +38,5 @@ If you wish to contribute to this template, the following information may be hel
 
 ### Initialization
 
-The FeedHenry SDK is initialized here in : [InitFragment](app/src/main/java/org/feedhenry/blank/InitFragment.java#L37).
+The FeedHenry SDK is initialized in `app/src/main/java/org/feedhenry/blank/InitFragment.java`.
 
